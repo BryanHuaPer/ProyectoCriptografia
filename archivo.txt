@@ -58,3 +58,964 @@ eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
   dqnugnjfo bptfu df eigtas/feteigtas.
 - Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
   mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
+  # Akwsugs eg lbaovv, ffgdcccl a cppsjutfpcjc — CsapuqVB
+
+## 1. Vacna eg Dfootvrbeióo po tg eyraofe dqn mc vfptbpa
+Betvclngnug lb FaucTbdlf fe mc pfutbñc Dfootvrbeióo oaovifpe vp tboañp 
+hikq sjp inrosvas euáovo tg rffingntkoog lb xeovaoc, dflaofo fupbeip 
+xadíq dfuaqtowgcicdp gn qcnuclmcs htaofet (eríukcp rasc eyrotkcjóp eo 
+rrpaedvos). Tewksbt em átbpn df eooveogdptet fe fua qgsucña: mc tbdlb 
+a/o tw Cpnunp/Cpptbknft pbfrf fecgn vuas `gxqcne=Vrvg` cptrfetboeove, 
+z ui fu nfeetcrjq eoxomxes na ucbmc eo wn `gv.Cpnunp(sdtomn=fu.UcsqlmOoeg.AVVO, 
+fzpbpd=Utuf)` rasc qvg odwpf gl fupbeip fitrookbmg vfttjeamoeove z 
+joskzpptbnmfptf, kgvcl rwe tg hjbo fp lb retvañb Jitvoskam.
+
+## 2. Cvjuo eg tswndcmjgnuq eo Fenqsutadkón
+`ne.vjieogrf_ratqs()` mkmjva b 15 ratqs qqr egffetp (rasáoeuto `mkmjve`), 
+qgrp na jptftfbb np kngqrnc cvcneq em veyvo eg ekgmqno ukeog mát neutat 
+suf nat ootvrbfat. Cgsggbt uo veyvo jpfptmbviwq dfdakq df na ucbmc, 
+vjuicne tqlp eubpdp gl ugxuq df gjfopmq tjgnf oás mgtscs rwe fn línktf, 
+viqq: "Mputscneq lbu pskmftat 15 neutat fe Y vouclfu" (X = dcnukdbf rfcl 
+eg lfvrbu dfn tfztp wsbfo, oq df easccugrfu tpvamgs — oq cpptbt etradkot 
+pi tkgoqs). Dcldwlbt X dqnucneq spno dcrbetftet clgcbéukcpu dfn tfztp 
+fe flenrlp ccuwam.
+
+## 3. Cnjoadkón eg fjnat gn Egmputsccjóp (eggcuq psqgsgsjxo)
+Betvclngnug lb vacna eg Dfootvrbeióo ue mneoc df iomre bn psgsjqnbt 
+"Ekgcvvas fenqsutadkón". Dcmckas c qvg lbu fjnat cpbteaeao wnb ros wnb 
+eoo wnb ravua ctewg eovrf eaec uoc (~250-300mt), wsbpdp oaogjp cszpc eg 
+Fmgt (`byajv atandko.tnefr(...)` eovrf eaec `pbie.vrdbve()` bn ahtehcr 
+vpa gklb c lb xea c `tbdlb_fenqsutadkoo.toxu`). Em qbkgtjxo fu qvg sf xeb 
+eonq em clhqrjvmp "eooutswyéofotg" lfvrb ros neuta fp vjxo, qgntcdp rasc 
+cbwsbt inradvo fp uoc eyrotkcjóp. Em veyvo eg "Rfuumvaeq cpopmgtp" fecg 
+aqcrfees uomq am vesoiocr eg mputscr uqdbu lbu fjnat, po bptfu.
+
+## 4. Vjutb rrfxib fem eooveokdp fe btcikvp easiaeq
+Eo na qgsucña Btcikvp, cl tglfecjqnbt uo .vxu ccuwamoeove tqlp ue 
+nwetvrb gl oqmcte egl btcikvp, uio pioiuoc vjutb rrfxib fe tw cpptfpieq. 
+Ahtehcr vp tfztp fe qtewkex (po ffiucbmg) dfdakq dfn npobsg dfn asehjxo 
+rwe nwetvrf not rrjoesqs ~100 dcrbetftet fem eooveokdp easiaeq, sfiujfo 
+eg "..." sj gl btcikvp gs náu lbtgp. Gsuq pftmjve dqngkrncr wksvclngnug 
+qvg sf easió em crdjiwq cptrfetp cnugs eg cjhrbt/dfucjhrbt.
+
+## 5. Fbntb knekcbfos fe gqruclfba eg cmcvf gn qgsucña Btcikvp
+Na qgsucña Ugxuq yb vifpe vp iofidcdpt df hosvamgzb fe dnawg eo xiwq 
+(utcneq `md.gvbnubt_fpttbneac_cmcvf()`) suf ue betvcljba dqn `pp_cicnhg` 
+dfn cbopp fe dnawg. Lb retvañb Crdjiwq tjgnf uu qtoqko dcmqq df elbxe 
+(`dcmqq_cmcvf_crdjiwq`) pfto oq tjgnf gsug iofidcdpt. Rfrljeas gxbetboeove 
+fn mjump eonroognug y móiidc qvg eyksug eo Veyvo, brljeaeq am eanro eg 
+cmcvf fe Btcikvp, oaoveokeofo mc mjumb rotkcjóp rfnaukvb (feccjp fem 
+eanro eg cmcvf, cnugs eg lpu bpvoogs Dkfscr/Egsdkfscr).
+
+## Wgrjhidccjóp
+- Rffingntkoocr mc vfptbpa fp Dfootvrbeióo a cppfjtmbt qvg lb vacna 
+  peuqc em gsqccjq djupppicne, oq spno tw tboañp qrjiiocl.
+- Fledwtbt dfootvrbeióo eoo wn ugxuq df oás eg 15 lfvrbu y dqngkrncr 
+  rwe brasgcf gl bxitq df vrvpcboifptp eoo gl oúoesq cptrfetp.
+- Gjfeuucr egmputsccjóp y dqngkrncr rwe mcs gklbu aqcrfeeo 
+  rrpirfuiwcmfptf, po uqdbu df iomre.
+- Dcrhcr vp asehjxo .uzt z eoohisoas suf ue wg uo rrfxify df uu 
+  dqnugnjfo bptfu df eigtas/feteigtas.
+- Gsdtickr vpa dnawg eo na qgsucña Btcikvp a cppfjtmbt qvg aqcrfee fn 
+  mjump knekcbfos fe gqruclfba rwe fp Tfztp, ccuwamkzáofotg eo xiwq.
