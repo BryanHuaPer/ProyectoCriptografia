@@ -149,10 +149,24 @@ def main(page: ft.Page):
     nombre_archivo_txt = ft.Text(value="Ningún archivo seleccionado", italic=True)
     campo_clave_archivo = default_text_field(label="Clave (solo letras)", width=300)
     fortaleza_archivo = ft.Text(value="", size=12)
+    
+    # TextFields para la vista lado a lado (post-procesamiento)
+    preview_archivo = default_text_field(
+        label="Contenido Original (100 caracteres)", multiline=True, min_lines=6, max_lines=10,
+        read_only=True, expand=True,
+    )
     resultado_archivo = default_text_field(
         label="Resultado", multiline=True, min_lines=6, max_lines=10,
         read_only=True, expand=True,
     )
+    
+    # Contenedor que agrupa ambas columnas, invisible hasta que se procese
+    fila_resultados_archivo = ft.Row(
+        controls=[preview_archivo, resultado_archivo],
+        expand=True,
+        visible=False
+    )
+    
     mensaje_archivo = ft.Text(value="", size=13)
     barra_progreso_archivo = ft.ProgressBar(width=400, visible=False)
 
@@ -175,7 +189,11 @@ def main(page: ft.Page):
             if not texto_actual:
                 raise ValueError("Primero selecciona un archivo .txt")
             salida = mc.vigenere(texto_actual, clave_actual, modo)
+            
+            # Configurar vista lado a lado
+            preview_archivo.value = (texto_actual[:100] + "...") if len(texto_actual) > 100 else texto_actual
             resultado_archivo.value = salida
+            fila_resultados_archivo.visible = True
 
             prev = estado["archivo"]
             if (prev["ultimo_texto"] != texto_actual or 
@@ -192,6 +210,7 @@ def main(page: ft.Page):
         except ValueError as e:
             mensaje_archivo.value = str(e)
             resultado_archivo.value = ""
+            fila_resultados_archivo.visible = False
         page.update()
 
     async def cifrar_archivo_click(e):
@@ -221,13 +240,16 @@ def main(page: ft.Page):
                     contenido_archivo["texto"] = f.read()
                 contenido_archivo["nombre"] = archivos[0].name
                 
-                # Preview del archivo
+                # Preview del archivo al cargar
                 texto_cargado = contenido_archivo["texto"]
                 preview = (texto_cargado[:100] + "...") if len(texto_cargado) > 100 else texto_cargado
                 preview_escaped = preview.replace('\n', ' ')
                 nombre_archivo_txt.value = f"✔ {archivos[0].name}\nVista previa: {preview_escaped}"
                 
                 mensaje_archivo.value = ""
+                # Ocultar la vista lado a lado hasta que procese
+                fila_resultados_archivo.visible = False
+                resultado_archivo.value = ""
             except Exception as ex:
                 mensaje_archivo.value = f"Error al leer: {ex}"
                 contenido_archivo["texto"] = None
@@ -274,7 +296,7 @@ def main(page: ft.Page):
                 ),
                 barra_progreso_archivo,
                 mensaje_archivo,
-                resultado_archivo,
+                fila_resultados_archivo,
                 ft.Button("Guardar resultado como .txt", icon=ft.Icons.SAVE,
                           on_click=guardar_resultado_click),
             ],
@@ -336,38 +358,60 @@ def main(page: ft.Page):
     #  PESTAÑA 4: DEMOSTRACIÓN (paso a paso del algoritmo)
     # ================================================================
     demo_texto = default_text_field(
-        label="Texto de ejemplo", value="HOLA MUNDO", width=350,
+        label="Texto de ejemplo", value="HOLA MUNDO", width=250,
     )
     demo_clave = default_text_field(
-        label="Clave de ejemplo", value="CLAVE", width=250,
+        label="Clave de ejemplo", value="CLAVE", width=150,
+    )
+    demo_limite = default_text_field(
+        label="Límite pasos", value="15", width=100, keyboard_type=ft.KeyboardType.NUMBER
     )
     demo_modo = ft.Dropdown(
-        label="Modo", width=180, value="cifrar", border_color=ft.Colors.OUTLINE,
+        label="Modo", width=150, value="cifrar", border_color=ft.Colors.OUTLINE,
         options=[ft.dropdown.Option("cifrar"), ft.dropdown.Option("descifrar")],
     )
     demo_mensaje = ft.Text(value="", size=14, color=ft.Colors.ERROR)
     demo_mensaje_truncamiento = ft.Text(value="", size=13, color=ft.Colors.OUTLINE, italic=True)
     demo_resultado_final = ft.Text(value="", size=22, weight=ft.FontWeight.BOLD)
 
-    demo_tabla = ft.DataTable(
-        columns=[
-            ft.DataColumn(ft.Text("#", size=16, weight=ft.FontWeight.BOLD)),
-            ft.DataColumn(ft.Text("Letra", size=16, weight=ft.FontWeight.BOLD)),
-            ft.DataColumn(ft.Text("Clave", size=16, weight=ft.FontWeight.BOLD)),
-            ft.DataColumn(ft.Text("Pos.", size=16, weight=ft.FontWeight.BOLD)),
-            ft.DataColumn(ft.Text("Pos. Clave", size=16, weight=ft.FontWeight.BOLD)),
-            ft.DataColumn(ft.Text("Op.", size=16, weight=ft.FontWeight.BOLD)),
-            ft.DataColumn(ft.Text("Resultado", size=16, weight=ft.FontWeight.BOLD)),
+    # Creador de celdas que se estiran horizontalmente
+    def crear_celda_demo(texto, bold=False, color=None, size=16):
+        return ft.Container(
+            content=ft.Text(texto, size=size, weight=ft.FontWeight.BOLD if bold else None, color=color),
+            expand=True,
+            alignment=ft.Alignment.CENTER_LEFT
+        )
+
+    # Cabecera de la tabla manual
+    demo_tabla_header = ft.Row(
+        controls=[
+            crear_celda_demo("#", bold=True),
+            crear_celda_demo("Letra", bold=True),
+            crear_celda_demo("Clave", bold=True),
+            crear_celda_demo("Pos.", bold=True),
+            crear_celda_demo("Pos. Clave", bold=True),
+            crear_celda_demo("Op.", bold=True),
+            crear_celda_demo("Resultado", bold=True),
         ],
-        rows=[],
-        column_spacing=20,
-        expand=True,
+    )
+    
+    # Contenedor para las filas generadas dinámicamente
+    demo_tabla_body = ft.Column(scroll=ft.ScrollMode.AUTO, expand=True)
+
+    # Tabla completa envolviendo cabecera y filas
+    demo_tabla_manual = ft.Column(
+        controls=[
+            demo_tabla_header,
+            ft.Divider(height=1),
+            demo_tabla_body
+        ],
+        expand=True
     )
 
     def usar_ultima_operacion(e):
         prev = estado["texto"]
         if prev["ultimo_texto"] and prev["ultima_clave"]:
-            # Recortamos el texto a 50 caracteres máximo para la demo para no saturar
+            # Recortamos a 50 para la demo para no saturar si es muy largo
             demo_texto.value = prev["ultimo_texto"][:50]
             demo_clave.value = prev["ultima_clave"]
             demo_modo.value = prev["ultimo_modo"]
@@ -387,7 +431,7 @@ def main(page: ft.Page):
         
         demo_resultado_final.value = ""
         demo_mensaje_truncamiento.value = ""
-        demo_tabla.rows = []
+        demo_tabla_body.controls.clear()
         page.update()
         
         try:
@@ -395,36 +439,34 @@ def main(page: ft.Page):
             clave = demo_clave.value or ""
             modo = demo_modo.value or "cifrar"
             
+            try:
+                limite_val = int(demo_limite.value)
+            except ValueError:
+                limite_val = 15
+            
             # Contar letras reales para el mensaje de truncamiento
             letras_totales = sum(1 for c in texto if c.upper() in mc.ALFABETO)
 
-            pasos = mc.vigenere_pasos(texto, clave, modo, limite=15)
+            pasos = mc.vigenere_pasos(texto, clave, modo, limite=limite_val)
             resultado_completo = mc.vigenere(texto, clave, modo)
             
-            if letras_totales > 15:
-                demo_mensaje_truncamiento.value = f"Mostrando las primeras 15 letras de {letras_totales} totales."
+            if letras_totales > limite_val:
+                demo_mensaje_truncamiento.value = f"Mostrando las primeras {limite_val} letras de {letras_totales} totales."
                 page.update()
 
             for i, p in enumerate(pasos, 1):
-                demo_tabla.rows.append(
-                    ft.DataRow(cells=[
-                        ft.DataCell(ft.Text(str(i), size=16)),
-                        ft.DataCell(ft.Text(p["letra_original"], size=18,
-                                            weight=ft.FontWeight.BOLD,
-                                            color="#00BCD4")),
-                        ft.DataCell(ft.Text(p["letra_clave"], size=18,
-                                            weight=ft.FontWeight.BOLD,
-                                            color="#FFA726")),
-                        ft.DataCell(ft.Text(str(p["pos_texto"]), size=16)),
-                        ft.DataCell(ft.Text(str(p["pos_clave"]), size=16)),
-                        ft.DataCell(ft.Text(
-                            f"({p['pos_texto']} {p['operacion']} {p['pos_clave']}) % 26",
-                            size=14,
-                        )),
-                        ft.DataCell(ft.Text(p["resultado"], size=18,
-                                            weight=ft.FontWeight.BOLD,
-                                            color=_COLOR_EXITO)),
-                    ])
+                demo_tabla_body.controls.append(
+                    ft.Row(
+                        controls=[
+                            crear_celda_demo(str(i)),
+                            crear_celda_demo(p["letra_original"], bold=True, color="#00BCD4"),
+                            crear_celda_demo(p["letra_clave"], bold=True, color="#FFA726"),
+                            crear_celda_demo(str(p["pos_texto"])),
+                            crear_celda_demo(str(p["pos_clave"])),
+                            crear_celda_demo(f"({p['pos_texto']} {p['operacion']} {p['pos_clave']}) % 26", size=14),
+                            crear_celda_demo(p["resultado"], bold=True, color=_COLOR_EXITO),
+                        ]
+                    )
                 )
                 page.update()
                 await asyncio.sleep(0.25) # Animación progresiva
@@ -457,7 +499,7 @@ def main(page: ft.Page):
                     alignment=ft.MainAxisAlignment.END,
                 ),
                 ft.Row(
-                    [demo_texto, demo_clave, demo_modo],
+                    [demo_texto, demo_clave, demo_limite, demo_modo],
                     alignment=ft.MainAxisAlignment.CENTER,
                     wrap=True,
                 ),
@@ -467,11 +509,7 @@ def main(page: ft.Page):
                     alignment=ft.MainAxisAlignment.CENTER,
                 ),
                 demo_mensaje,
-                ft.Column(
-                    [demo_tabla],
-                    scroll=ft.ScrollMode.AUTO,
-                    expand=True,
-                ),
+                demo_tabla_manual,
                 demo_mensaje_truncamiento,
                 ft.Divider(height=5),
                 demo_resultado_final,
