@@ -148,12 +148,23 @@ def main(page: ft.Page):
     contenido_archivo = {"texto": None, "nombre": None}
     nombre_archivo_txt = ft.Text(value="Ningún archivo seleccionado", italic=True)
     campo_clave_archivo = default_text_field(label="Clave (solo letras)", width=300)
+    fortaleza_archivo = ft.Text(value="", size=12)
     resultado_archivo = default_text_field(
         label="Resultado", multiline=True, min_lines=6, max_lines=10,
         read_only=True, expand=True,
     )
     mensaje_archivo = ft.Text(value="", size=13)
     barra_progreso_archivo = ft.ProgressBar(width=400, visible=False)
+
+    def actualizar_fortaleza_archivo(e):
+        info = mc.evaluar_fortaleza_clave(campo_clave_archivo.value)
+        fortaleza_archivo.value = f"Fortaleza: {info['nivel']} — {info['detalle']}"
+        mapa = {"grey": ft.Colors.OUTLINE, "red": ft.Colors.ERROR,
+                "orange": _COLOR_ADVERTENCIA, "green": _COLOR_EXITO}
+        fortaleza_archivo.color = mapa.get(info["color"], ft.Colors.ON_SURFACE)
+        page.update()
+
+    campo_clave_archivo.on_change = actualizar_fortaleza_archivo
 
     def procesar_archivo(modo: str):
         mensaje_archivo.value = ""
@@ -209,7 +220,13 @@ def main(page: ft.Page):
                 with open(ruta, "r", encoding="utf-8") as f:
                     contenido_archivo["texto"] = f.read()
                 contenido_archivo["nombre"] = archivos[0].name
-                nombre_archivo_txt.value = f"✔ {archivos[0].name}"
+                
+                # Preview del archivo
+                texto_cargado = contenido_archivo["texto"]
+                preview = (texto_cargado[:100] + "...") if len(texto_cargado) > 100 else texto_cargado
+                preview_escaped = preview.replace('\n', ' ')
+                nombre_archivo_txt.value = f"✔ {archivos[0].name}\nVista previa: {preview_escaped}"
+                
                 mensaje_archivo.value = ""
             except Exception as ex:
                 mensaje_archivo.value = f"Error al leer: {ex}"
@@ -247,6 +264,7 @@ def main(page: ft.Page):
                     alignment=ft.MainAxisAlignment.CENTER,
                 ),
                 campo_clave_archivo,
+                fortaleza_archivo,
                 ft.Row(
                     [
                         ft.Button("Cifrar", icon=ft.Icons.LOCK, on_click=cifrar_archivo_click),
@@ -328,6 +346,7 @@ def main(page: ft.Page):
         options=[ft.dropdown.Option("cifrar"), ft.dropdown.Option("descifrar")],
     )
     demo_mensaje = ft.Text(value="", size=14, color=ft.Colors.ERROR)
+    demo_mensaje_truncamiento = ft.Text(value="", size=13, color=ft.Colors.OUTLINE, italic=True)
     demo_resultado_final = ft.Text(value="", size=22, weight=ft.FontWeight.BOLD)
 
     demo_tabla = ft.DataTable(
@@ -342,6 +361,7 @@ def main(page: ft.Page):
         ],
         rows=[],
         column_spacing=20,
+        expand=True,
     )
 
     def usar_ultima_operacion(e):
@@ -353,26 +373,37 @@ def main(page: ft.Page):
             demo_modo.value = prev["ultimo_modo"]
             demo_mensaje.value = "✔ Cargado desde la pestaña Texto."
             demo_mensaje.color = _COLOR_EXITO
-            ejecutar_demo(None)
+            
+            # Ejecutamos de forma asíncrona para la animación
+            asyncio.create_task(ejecutar_demo_async(None))
         else:
             demo_mensaje.value = "Aún no hay una operación previa en la pestaña Texto."
             demo_mensaje.color = _COLOR_ADVERTENCIA
         page.update()
 
-    def ejecutar_demo(e):
+    async def ejecutar_demo_async(e):
         if e is not None:
-            # Si el usuario hace clic en el botón de Ejecutar, reseteamos mensajes previos
             demo_mensaje.value = ""
         
         demo_resultado_final.value = ""
+        demo_mensaje_truncamiento.value = ""
         demo_tabla.rows = []
+        page.update()
+        
         try:
             texto = demo_texto.value or ""
             clave = demo_clave.value or ""
             modo = demo_modo.value or "cifrar"
+            
+            # Contar letras reales para el mensaje de truncamiento
+            letras_totales = sum(1 for c in texto if c.upper() in mc.ALFABETO)
 
             pasos = mc.vigenere_pasos(texto, clave, modo, limite=15)
             resultado_completo = mc.vigenere(texto, clave, modo)
+            
+            if letras_totales > 15:
+                demo_mensaje_truncamiento.value = f"Mostrando las primeras 15 letras de {letras_totales} totales."
+                page.update()
 
             for i, p in enumerate(pasos, 1):
                 demo_tabla.rows.append(
@@ -395,6 +426,8 @@ def main(page: ft.Page):
                                             color=_COLOR_EXITO)),
                     ])
                 )
+                page.update()
+                await asyncio.sleep(0.25) # Animación progresiva
 
             demo_resultado_final.value = f"Resultado completo: {resultado_completo}"
 
@@ -404,8 +437,10 @@ def main(page: ft.Page):
         page.update()
 
     tab_demo = ft.Container(
+        expand=True,
         content=ft.Column(
-            [
+            expand=True,
+            controls=[
                 ft.Text(
                     "Modo Demostración — Paso a paso",
                     size=20, weight=ft.FontWeight.BOLD,
@@ -428,7 +463,7 @@ def main(page: ft.Page):
                 ),
                 ft.Row(
                     [ft.Button("Ejecutar demostración", icon=ft.Icons.PLAY_ARROW,
-                               on_click=ejecutar_demo)],
+                               on_click=ejecutar_demo_async)],
                     alignment=ft.MainAxisAlignment.CENTER,
                 ),
                 demo_mensaje,
@@ -437,6 +472,7 @@ def main(page: ft.Page):
                     scroll=ft.ScrollMode.AUTO,
                     expand=True,
                 ),
+                demo_mensaje_truncamiento,
                 ft.Divider(height=5),
                 demo_resultado_final,
             ],
