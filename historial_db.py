@@ -1,9 +1,28 @@
 
 import sqlite3
+import os
+import sys
 from datetime import datetime
 from pathlib import Path
 
-DB_PATH = Path(__file__).parent / "cryptova.db"
+
+def _obtener_db_path() -> Path:
+    """
+    Devuelve la ruta de la base de datos.
+    - En desarrollo: usa %LOCALAPPDATA%/CryptoVA/cryptova.db (o junto al .py si falla)
+    - Empaquetado (flet build): misma lógica, LOCALAPPDATA siempre existe en Windows
+    """
+    local_app_data = os.environ.get("LOCALAPPDATA")
+    if local_app_data:
+        carpeta = Path(local_app_data) / "CryptoVA"
+    else:
+        # Fallback: junto al archivo fuente (Linux/Mac o entorno atípico)
+        carpeta = Path(__file__).parent
+    carpeta.mkdir(parents=True, exist_ok=True)
+    return carpeta / "cryptova.db"
+
+
+DB_PATH = _obtener_db_path()
 
 
 def inicializar_db():
@@ -14,9 +33,9 @@ def inicializar_db():
         CREATE TABLE IF NOT EXISTS historial (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             fecha_hora TEXT NOT NULL,
-            accion TEXT NOT NULL,      -- 'Cifrar' o 'Descifrar'
-            metodo TEXT NOT NULL,      -- 'Vigenère', etc.
-            origen TEXT NOT NULL       -- 'Texto' o 'Archivo'
+            accion TEXT NOT NULL,
+            metodo TEXT NOT NULL,
+            origen TEXT NOT NULL
         )
     """)
     conn.commit()
@@ -50,7 +69,7 @@ def obtener_historial(limite: int = 100) -> list[tuple]:
 
 
 def limpiar_historial():
-    """Borra todo el historial (útil para pruebas o para reiniciar antes de la demo)."""
+    """Borra todo el historial."""
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("DELETE FROM historial")
