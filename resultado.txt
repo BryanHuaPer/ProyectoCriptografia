@@ -1018,4 +1018,4 @@ campo de clave, antes de los botones Cifrar/Descifrar).
 - Cargar un archivo .txt y confirmar que se ve un preview de su 
   contenido antes de cifrar/descifrar.
 - Escribir una clave en la pestaña Archivo y confirmar que aparece el 
-  mismo indicador de fortaleza que en Texto, actualizándose en vivo.
+  mismo indicador de fortaleza que en Texto, actualizándose en vivo.dsadasda

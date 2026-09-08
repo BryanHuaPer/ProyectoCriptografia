@@ -1,0 +1,6 @@
+__pycache__/
+venv/
+build/
+*.db
+archivo.txt
+InstaladorFinal/

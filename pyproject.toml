@@ -1,0 +1,12 @@
+[project]
+name = "cryptova"
+version = "1.0.0"
+description = "Software de cifrado y descifrado Vigenere"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "flet>=0.21.0"
+]
+
+[tool.flet]
+module = "main"
