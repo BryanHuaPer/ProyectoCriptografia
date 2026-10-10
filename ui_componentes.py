@@ -1,12 +1,11 @@
 import flet as ft
 import motor_cripto as mc
 
-# ── Paleta centralizada (para los pocos lugares que necesitan color manual) ──
+
 COLOR_EXITO = "#4CAF50"
 COLOR_ADVERTENCIA = "#FFA726"
 
 def default_text_field(**kwargs):
-    """Helper para unificar bordes de campos de texto."""
     return ft.TextField(border_color=ft.Colors.OUTLINE, **kwargs)
 
 def crear_indicador_fortaleza(campo_clave: ft.TextField, fortaleza_texto: ft.Text, page: ft.Page):
@@ -23,7 +22,6 @@ def crear_indicador_fortaleza(campo_clave: ft.TextField, fortaleza_texto: ft.Tex
     page.update()
 
 def truncar_visual(texto: str, limite: int = 5000) -> str:
-    """Trunca el texto solo para propósitos visuales (UI) si es muy largo."""
     if not texto: return ""
     return (texto[:limite] + f"\n\n... (Texto truncado a {limite} caracteres para visualización)") if len(texto) > limite else texto
 
@@ -60,7 +58,6 @@ def construir_vista_comparacion(titulo_izq="Contenido Original", titulo_der="Res
     return contenedor_general, etiqueta_operacion, campo_izq, campo_der
 
 def crear_celda_demo(texto, bold=False, color=None, size=16):
-    """Crea una celda para la tabla dinámica de demostración."""
     return ft.Container(
         content=ft.Text(texto, size=size, weight=ft.FontWeight.BOLD if bold else None, color=color),
         expand=True,

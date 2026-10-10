@@ -15,7 +15,6 @@ def construir_tab_texto(page: ft.Page, estado: dict) -> ft.Container:
     mensaje_texto = ft.Text(value="", size=13)
     barra_progreso_texto = ft.ProgressBar(width=400, visible=False)
 
-    # Vista de comparación (solo se usa si todo fue exitoso)
     contenedor_comp, etiqueta_op, campo_izq, campo_der = ui.construir_vista_comparacion(
         titulo_izq="Texto Original", titulo_der="Resultado"
     )
@@ -32,25 +31,22 @@ def construir_tab_texto(page: ft.Page, estado: dict) -> ft.Container:
             clave_actual = campo_clave_texto.value or ""
             if not texto_actual:
                 raise ValueError("Ingresa un texto primero.")
-            salida = mc.vigenere(texto_actual, clave_actual, modo)
+            salida = mc.cifrar_mixto(texto_actual, clave_actual) if modo == "cifrar" else mc.descifrar_mixto(texto_actual, clave_actual)
             
-            # Guardamos el resultado real (sin truncar) en el estado general si es necesario,
-            # pero aquí lo que nos importa es la visualización.
             campo_izq.value = ui.truncar_visual(texto_actual)
             campo_der.value = ui.truncar_visual(salida)
             
-            etiqueta_op.value = f"[{'Cifrado' if modo == 'cifrar' else 'Descifrado'}] con clave: {clave_actual}"
+            etiqueta_op.value = f"[{'Cifrado Mixto' if modo == 'cifrar' else 'Descifrado Mixto'}] • Clave utilizada: {'●' * len(clave_actual)}"
             etiqueta_op.visible = True
             contenedor_comp.visible = True
             
-            # Registrar solo si cambió algo respecto a la última vez
             prev = estado["texto"]
             if (prev["ultimo_texto"] != texto_actual or 
                 prev["ultima_clave"] != clave_actual or 
                 prev["ultimo_modo"] != modo):
                 db.registrar_operacion(
                     accion="Cifrar" if modo == "cifrar" else "Descifrar",
-                    metodo="Vigenère", origen="Texto",
+                    metodo="Mixto (Vigenère progresivo + Transposición)", origen="Texto",
                 )
                 prev["ultimo_texto"] = texto_actual
                 prev["ultima_clave"] = clave_actual

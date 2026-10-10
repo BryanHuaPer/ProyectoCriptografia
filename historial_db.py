@@ -7,16 +7,10 @@ from pathlib import Path
 
 
 def _obtener_db_path() -> Path:
-    """
-    Devuelve la ruta de la base de datos.
-    - En desarrollo: usa %LOCALAPPDATA%/CryptoVA/cryptova.db (o junto al .py si falla)
-    - Empaquetado (flet build): misma lógica, LOCALAPPDATA siempre existe en Windows
-    """
     local_app_data = os.environ.get("LOCALAPPDATA")
     if local_app_data:
         carpeta = Path(local_app_data) / "CryptoVA"
     else:
-        # Fallback: junto al archivo fuente (Linux/Mac o entorno atípico)
         carpeta = Path(__file__).parent
     carpeta.mkdir(parents=True, exist_ok=True)
     return carpeta / "cryptova.db"
@@ -43,7 +37,6 @@ def inicializar_db():
 
 
 def registrar_operacion(accion: str, metodo: str, origen: str):
-    """Inserta una nueva fila en el historial. No recibe ni guarda datos sensibles."""
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute(

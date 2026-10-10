@@ -8,14 +8,13 @@ from tab_historial import construir_tab_historial
 from tab_demo import construir_tab_demo
 
 def main(page: ft.Page):
-    page.title = "CryptoVA — Cifrado Vigenère"
+    page.title = "CryptoVA — Cifrado Mixto"
     page.window.width = 850
     page.window.height = 760
     page.window.resizable = True
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.padding = 20
 
-    # ── Tema centralizado ──
     page.theme_mode = ft.ThemeMode.DARK
     page.theme = ft.Theme(
         color_scheme_seed="#0D47A1",
@@ -34,26 +33,21 @@ def main(page: ft.Page):
         ),
         font_family="Segoe UI",
     )
-    page.dark_theme = page.theme  # mismo tema en modo oscuro
+    page.dark_theme = page.theme
 
     db.inicializar_db()
 
-    # Variables de estado para evitar historiales duplicados y para la demo
     estado = {
         "texto": {"ultimo_texto": "", "ultima_clave": "", "ultimo_modo": ""},
         "archivo": {"ultimo_texto": "", "ultima_clave": "", "ultimo_modo": ""}
     }
 
-    # Inicializar componentes de pestañas modulares
     tab_historial_view, refrescar_historial_fn = construir_tab_historial(page)
     
     tab_texto_view = construir_tab_texto(page, estado)
     tab_archivo_view = construir_tab_archivo(page, estado)
     tab_demo_view = construir_tab_demo(page, estado)
 
-    # ================================================================
-    #  LAYOUT FINAL — 4 pestañas
-    # ================================================================
     tabs = ft.Tabs(
         length=4,
         selected_index=0,
@@ -78,13 +72,12 @@ def main(page: ft.Page):
         on_change=lambda e: refrescar_historial_fn() if tabs.selected_index == 2 else None,
     )
 
-    # Contenedor central para evitar que se estire demasiado en pantallas anchas
     contenedor_principal = ft.Container(
         width=1100,
         expand=True,
         content=ft.Column(
             [
-                ft.Text("CryptoVA — Cifrado Vigenère", size=26,
+                ft.Text("CryptoVA — Cifrado Mixto", size=26,
                         weight=ft.FontWeight.BOLD, color="#00BCD4"),
                 tabs,
             ],

@@ -15,7 +15,6 @@ def construir_tab_archivo(page: ft.Page, estado: dict) -> ft.Container:
     mensaje_archivo = ft.Text(value="", size=13)
     barra_progreso_archivo = ft.ProgressBar(width=400, visible=False)
 
-    # Vista de comparación (solo se usa si todo fue exitoso)
     contenedor_comp, etiqueta_op, campo_izq, campo_der = ui.construir_vista_comparacion(
         titulo_izq="Contenido Original", titulo_der="Resultado"
     )
@@ -33,13 +32,13 @@ def construir_tab_archivo(page: ft.Page, estado: dict) -> ft.Container:
             if not texto_actual:
                 raise ValueError("Primero selecciona un archivo .txt")
             
-            salida = mc.vigenere(texto_actual, clave_actual, modo)
-            contenido_archivo["resultado_completo"] = salida # Para guardar después sin truncar
+            salida = mc.cifrar_mixto(texto_actual, clave_actual) if modo == "cifrar" else mc.descifrar_mixto(texto_actual, clave_actual)
+            contenido_archivo["resultado_completo"] = salida
             
             campo_izq.value = ui.truncar_visual(texto_actual)
             campo_der.value = ui.truncar_visual(salida)
             
-            etiqueta_op.value = f"[{'Cifrado' if modo == 'cifrar' else 'Descifrado'}] con clave: {clave_actual}"
+            etiqueta_op.value = f"[{'Cifrado Mixto' if modo == 'cifrar' else 'Descifrado Mixto'}] • Clave utilizada: {'●' * len(clave_actual)}"
             etiqueta_op.visible = True
             contenedor_comp.visible = True
 
@@ -49,7 +48,7 @@ def construir_tab_archivo(page: ft.Page, estado: dict) -> ft.Container:
                 prev["ultimo_modo"] != modo):
                 db.registrar_operacion(
                     accion="Cifrar" if modo == "cifrar" else "Descifrar",
-                    metodo="Vigenère", origen="Archivo",
+                    metodo="Mixto (Vigenère progresivo + Transposición)", origen="Archivo",
                 )
                 prev["ultimo_texto"] = texto_actual
                 prev["ultima_clave"] = clave_actual
@@ -107,7 +106,6 @@ def construir_tab_archivo(page: ft.Page, estado: dict) -> ft.Container:
             )
             if ruta:
                 try:
-                    # Siempre guardamos el texto completo en memoria
                     with open(ruta, "w", encoding="utf-8") as f:
                         f.write(contenido_archivo["resultado_completo"])
                     mensaje_archivo.value = "✔ Archivo guardado correctamente."
