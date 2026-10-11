@@ -3,4 +3,5 @@ venv/
 build/
 *.db
 *.txt
+generar_archivos_prueba.py
 InstaladorFinal/

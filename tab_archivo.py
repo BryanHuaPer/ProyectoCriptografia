@@ -1,5 +1,6 @@
 import flet as ft
 import asyncio
+import time
 
 import motor_cripto as mc
 import historial_db as db
@@ -32,13 +33,15 @@ def construir_tab_archivo(page: ft.Page, estado: dict) -> ft.Container:
             if not texto_actual:
                 raise ValueError("Primero selecciona un archivo .txt")
             
+            t0 = time.perf_counter()
             salida = mc.cifrar_mixto(texto_actual, clave_actual) if modo == "cifrar" else mc.descifrar_mixto(texto_actual, clave_actual)
+            duracion = time.perf_counter() - t0
             contenido_archivo["resultado_completo"] = salida
             
             campo_izq.value = ui.truncar_visual(texto_actual)
             campo_der.value = ui.truncar_visual(salida)
             
-            etiqueta_op.value = f"[{'Cifrado Mixto' if modo == 'cifrar' else 'Descifrado Mixto'}] • Clave utilizada: {'●' * len(clave_actual)}"
+            etiqueta_op.value = f"[{'Cifrado Mixto' if modo == 'cifrar' else 'Descifrado Mixto'}] • Clave: {'●' * len(clave_actual)} • Tiempo: {duracion:.3f} s"
             etiqueta_op.visible = True
             contenedor_comp.visible = True
 
